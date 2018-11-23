@@ -2,6 +2,7 @@
   "name": "crypo_wallet",
   "private": true,
   "dependencies": {
+    "@rails/webpacker": "3.5",
     "bootstrap": "^4.1.3",
     "font-awesome": "^4.7.0",
     "jquery": "^3.3.1",
@@ -11,5 +12,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ricardo Lima <phpricardo@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
 }

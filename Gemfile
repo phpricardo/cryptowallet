@@ -31,6 +31,7 @@ gem 'rails-i18n', '~> 5.1'
 # gem 'mini_magick', '~> 4.8'
 
 gem 'tty-spinner'
+gem 'webpacker'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
