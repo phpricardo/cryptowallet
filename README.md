@@ -1,24 +1,23 @@
-# README
+# Crypto Wallet
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Crypto Wallet, an app that you can register and keep up with your cryptacoin.
 
-Things you may want to cover:
+### Installation
 
-* Ruby version
+yarn requires [Yarn](https://yarnpkg.com/pt-BR/) to run.
 
-* System dependencies
+Install the dependencies and devDependencies and start the server.
 
-* Configuration
+```sh
+$ cd crypo_wallet
+$ yarn install -d
+```
+after
+```sh
+$ bundle install
+$ rails db:migrate
+$ rails s
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Web Link
+https://crypto-wallet-rails.herokuapp.com/

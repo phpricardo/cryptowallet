@@ -22,6 +22,13 @@
           <%= link_to 'English', root_path(locale: 'en'), class:"nav-link" %>
         </li>
       </ul>
+
+      <% flash.each do |key, value| %>
+        <div class="<%= flash_class(key) %>">
+          <%= value %>
+        </div>
+      <% end %>
+
       <%= yield %>
     </div>
   </body>
